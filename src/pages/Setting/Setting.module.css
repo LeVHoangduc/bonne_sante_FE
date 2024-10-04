@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 20px;
+    margin: 50px 10px 40px 10px;
+    border-radius: 20px;
+    background-color: #e4e7f0;
+  }
+  
+  .headerText {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 20px;
+    margin: 0 15px 15px 15px;
+    border-radius: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #e4e7f0;
+  }
+  
+  .rowText {
+    flex: 1;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+  
+  .icon {
+    width: 20px;
+  }
+  
+  .arrowIcon {
+    margin-left: 10px;
+  }
+  
+  .deleteAccountRow {
+    padding: 15px 20px;
+  }
+  
+  .deleteAccountText {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+  }
+  

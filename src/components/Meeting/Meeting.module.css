@@ -1,0 +1,15 @@
+.meetingSDKElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+}
+
+.containerMeetingDoctor {
+  position: relative;
+  padding-top: 40px;
+}
